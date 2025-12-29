@@ -2,9 +2,10 @@
 # Enterprise VLAN Routing Lab with Multi-Router Static Routing
 
 ## Project Overview
-
 This lab demonstrates enterprise-style network segmentation and connectivity using VLANs, router-on-a-stick, DHCP, and multi-router static routing in Cisco Packet Tracer. Two independent routed environments are first built, each containing multiple VLANs, and are then interconnected through a dedicated point-to-point /30 link to enable end-to-end communication between hosts across all routing domains.
+
 This repository includes both the Cisco Packet Tracer project file used to build and validate the lab and a draw.io network topology diagram. The Packet Tracer file allows the full network configuration, device settings, and connectivity testing to be reviewed and reproduced. The draw.io diagram provides a high-level architectural view of the logical design, illustrating VLAN segmentation, switch-to-router trunking, router subinterfaces, static routing, and inter-router connectivity, helping visualize how all components interact end-to-end.
+
 ---
 
 ## Why These IP Ranges Were Chosen
